@@ -7,4 +7,4 @@ It will run all the tests found in the folder `/test`. This can be a volume or a
 
 `Docker` is also available, it can be used to mount a volume sharing the `/var/run/docker.sock` from the host, to execute docker commands.
 
-Ex: `docker run -v /var/run/docker.sock:/var/run/docker.sock -v <FOLDER_IN_HOSTMACHINE_WITH_TESTS>:/test`
+Ex: `docker run -v /var/run/docker.sock:/var/run/docker.sock -v <FOLDER_IN_HOSTMACHINE_WITH_TESTS>:/test adminb/pester-runner`
